@@ -51,7 +51,7 @@ body {
 }
 .article {
   text-align: center;
-  opacity: 70%;
+  /* opacity: 70%; */
   margin: 1rem 0;
   line-height: 1.6;
   font-size: 0.9rem;
@@ -65,11 +65,13 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   color: #0c8ac8;
-  opacity: 50%;
+  /* opacity: 50%; */
+  background: #f0f0f0;
   transition: 500ms;
 }
 .btn:hover {
-  opacity: 100%;
+  /* opacity: 100%; */
+  background: #a6a6a6;
 }
 .surprise-btn {
   padding: 0.2rem 1rem;
@@ -82,6 +84,6 @@ body {
   border-radius: 5px;
 }
 .surprise-btn:hover {
-  color: #102a42;
-  background: #0c8ac8;
+  /* color: #102a42; */
+  background: #a6a6a6;
 }

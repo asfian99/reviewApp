@@ -1,38 +1,87 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f1f5f8;
+  font-family: "Poppins", sans-serif;
+  color: #102a42;
+}
+.container {
+  display: block;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+}
+.title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 5px solid #0c8ac8;
+}
+/* CARD */
+.card {
+  padding: 2rem;
+  margin: 2rem auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.pic {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 8px solid #0c8ac8;
+  margin: 0 0 1rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+  font-size: 1.24rem;
+  font-weight: 500;
+}
+.role {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #0c8ac8;
+}
+.article {
+  text-align: center;
+  opacity: 70%;
+  margin: 1rem 0;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+.btn {
+  padding: 0rem 1rem;
+  border: none;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0c8ac8;
+  opacity: 50%;
+  transition: 500ms;
+}
+.btn:hover {
+  opacity: 100%;
+}
+.surprise-btn {
+  padding: 0.2rem 1rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #0c8ac8;
+  border: none;
+  cursor: pointer;
+  transition: 500ms;
+  border-radius: 5px;
+}
+.surprise-btn:hover {
+  color: #102a42;
+  background: #0c8ac8;
 }

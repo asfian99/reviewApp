@@ -24,7 +24,7 @@ export const profiles = [
     name: "Peter Jones",
     role: "Intern",
     article:
-      "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.",
+      "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag. gastropub deep v vice franzen hell.",
   },
   {
     id: 4,
